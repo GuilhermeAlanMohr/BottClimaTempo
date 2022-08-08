@@ -7,7 +7,7 @@ class newbot:
     def __init__(self, nome_bot):
         self.driver = webdriver.Chrome("chromedriver")
 
-    def climaTempo(self, cidades = []):
+    def capturaDadosClimaticos(self, cidades = []):
 
         try:
             #Cria um laço de repetição que vai acessar cada cidade recebida por parametro
