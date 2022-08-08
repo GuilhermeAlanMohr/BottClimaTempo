@@ -1,5 +1,7 @@
 import re
 from bott import newbot
 
+#Cria um objeto da classe newbot
 bott = newbot('roboClimaTempo')
-bott.climaTempo(["Porto Alegre","Rio de Janeiro","Belo Horizonte"])
+#Chama o método climaTempo e envia um array com cidades como Strings
+bott.climaTempo(["Porto Alegre","Rio de Janeiro","Belo Horizonte","São Paulo","Santa Maria","Salvador"])

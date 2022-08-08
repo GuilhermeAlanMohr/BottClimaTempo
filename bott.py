@@ -10,6 +10,7 @@ class newbot:
     def climaTempo(self, cidades = []):
 
         try:
+            #Cria um laço de repetição que vai acessar cada cidade recebida por parametro
             for cidade in cidades:
                 site = 'https://www.climatempo.com.br'
                 self.driver.get(site)
